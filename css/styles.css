@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('../assets/fondo.jfif') no-repeat center center fixed;
+    /*background-color: #043a45;*/
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+}
+
+.container {
+    /*background-color: #06515f;*/
+    background-color: rgba(6, 81, 95, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    text-align: left;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    resize: none;
+}
+.warning {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.warning-icon {
+    margin-right: 10px;
+    font-size: 20px;
+}
+button {
+    background-color: #e37b00;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #c56b00;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 14px;
+}
+
+
+.warning {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.warning-icon {
+    margin-right: 10px;
+    font-size: 20px;
+}
+.footer{
+    color: var(--color-title);
+    display: flex;
+    flex-direction: column;
+}
+
+.div__footer{
+    align-self: center;
+}
+
+.bx{
+    margin-right: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.bxl-github:hover{
+    color: var(--color-github--hover);
+}
+
+.bxl-linkedin-square:hover{
+    color:var(--color-linkedin--hover);
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador Challenge ONE</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <h1>Encriptador Challenge ONE</h1>
+        <textarea id="inputText" placeholder="ingresar texto"></textarea>
+        <div class="warning">
+            <span class="warning-icon">⚠️</span>
+            <label>Solo letras minúsculas y sin acento</label>
+        </div>
+        <button onclick="encryptText()">Encriptar</button>
+        <button onclick="decryptText()">Desencriptar</button>
+        <textarea id="outputText" readonly></textarea>
+        <button onclick="copyText()">Copiar</button>
+    </div>
+    <footer>
+        <p>© 2024 Desarrollado por JunalChowdhuryG</p>
+        <div class="div__footer">
+            <a href="https://github.com/JunalChowdhuryG" target="_blank" >
+                <i class='bx bxl-github'></i>
+            </a>
+            <a href="https://www.linkedin.com/in/junal-chowdhury-g/" target="_blank">
+                <i class='bx bxl-linkedin-square'></i>
+            </a>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
